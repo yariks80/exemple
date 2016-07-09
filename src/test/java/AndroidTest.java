@@ -36,6 +36,8 @@ public class AndroidTest {
 
     WebDriver driver =  new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
+
+    
         // откроем страницу Google
         driver.get("http://www.google.com");
 
